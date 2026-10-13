@@ -23,6 +23,7 @@
     </nav>
 
     <table class="main_table">
+    <!--title-->
         <tr>
             <td class="title" colspan="2">
                 <h1>Контакты</h1>
@@ -107,13 +108,13 @@
                     <li>Онлайн-оплата по ссылке</li>
                 </ul>
             </td>
-            <!--map-->
+    <!--map-->
             <td>
                 <a id="map"></a> 
                 <h2>Мы на карте</h2>
                 <table class="table">
                     <tr>
-                        <th class="photo">Мини-карта</th>
+                        <th>Мини-карта</th>
                         <th>Адрес</th>
                         <th>Как добраться</th>
                         <th>Маршрут</th>
@@ -121,7 +122,7 @@
                     <tr>
                         <td>
                             <figure>
-                            <a href="./img/contacts_map.png" target="_blank"><img width="100" src="./img/contacts_map.png" alt="Карта"></a>
+                            <a href="./img/contacts_map.png" target="_blank"><img src="./img/contacts_map.png" alt="Карта"></a>
                             <figcaption>Нажмите на миниатюру, <br> чтобы открыть карту <br> в новом окне.</figcaption>
                         </figure>  
                         </td>
@@ -145,14 +146,14 @@
             <td>
                 <a id="contact_form"></a>
                 <h2>Форма связи</h2>
-                <form action="https://www.ya.ru/search?" id="UserEnter" name="UserEnter" target="_blank">
+                <form action="https://www.bing.com/search?" id="UserEnter" name="UserEnter" target="_blank">
                     <p>Для поисковика: <input type="hidden" name="q" value="search"></p>
                     <p>Фамилия: <input type="Text" name="last_name" size=20 value="Корякина"></p>
                     <p>Имя: <input type="Text" name="name" size=20 value="Дарья"></p>
                     <p>Группа: <input type="Text" name="group" size=20 value="ИЯ-25-2"></p>
                     <p>Номер телефона: <br> формат: 912-345-6789 <input type="tel" id="phone" name="phone" size=20 pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required value="912-345-6789" /></p>
                     <p>Email: <input type="email" name="email" size=30 value="koryakina2552@gmail.com"></p>
-                    <p>Дата отправки сообщения: <input type="date" name="date"></p>
+                    <p>Дата отправки сообщения: <input type="date" name="date" value='2026-10-02'></p>
                     <p>
                         <input type="Reset" name="Reset" value="Обновить">
                         <input type="Submit" name="submit" value="Отправить">
@@ -166,7 +167,6 @@
                 <a href="contacts.html#up"><img src="./img/up.png" width="20" alt="Вверх"></a>
             </td>
         </tr>
-
     </table>
 </body>
 </html>
