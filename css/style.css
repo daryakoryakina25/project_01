@@ -46,7 +46,11 @@ body {
     text-align: center;
     border: 2px solid #C03A22;
 }
-.photo {
+.table th:first-child,
+.table td:first-child {
+    width: 90px;
+}
+.table img {
     width: 90px;
 }
 .up_down {
