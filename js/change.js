@@ -1,7 +1,3 @@
-console.log("Мой скрипт")
-const change = document.getElementById("change")
-change.addEventListener("click",my_fun)
-
 function my_fun(){
 
     console.log("Мой скрипт работает1")
@@ -41,10 +37,6 @@ else{
 
 }
 
-function sum(){
-    let a=10;
-    let b=20;
-    s=a+b
-    console.log("Сумма =",sum)
-    console.log(s)
-}
+console.log("Мой скрипт")
+const change = document.getElementById("change")
+change.addEventListener("click",my_fun)
